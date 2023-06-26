@@ -1,0 +1,25 @@
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 8px;
+  .btn {
+    aspect-ratio: 1;
+    width: 20px;
+    border-radius: 4px;
+    background-color: #ff5500;
+    display: grid;
+    place-items: center;
+    border: none;
+    &:disabled {
+      background-color: #ffa375;
+      cursor: not-allowed;
+    }
+  }
+  .count {
+    font-size: 20px;
+    color: #1b1f23;
+    font-weight: 500;
+    line-height: 20px;
+  }
+}

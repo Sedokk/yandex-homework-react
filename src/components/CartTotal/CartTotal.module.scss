@@ -1,0 +1,14 @@
+.resultBlock {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .cartSign,
+  .ticketsAmount {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+}

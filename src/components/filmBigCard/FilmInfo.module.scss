@@ -1,0 +1,63 @@
+.filmInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0 32px;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  .poster {
+    border-radius: 8px;
+  }
+  .textBlock {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px 0;
+    .textTop {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .title {
+        color: #1b1f23;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 32px;
+      }
+    }
+    .parametres {
+      display: flex;
+      flex-direction: column;
+      gap: 16px 0;
+      margin-bottom: 8px;
+      .parametresElem {
+        color: #1b1f23;
+        font-size: 20px;
+        line-height: 24px;
+        .parametreName {
+          font-weight: 500;
+        }
+        .parametreValue {
+          font-weight: 400;
+        }
+      }
+    }
+    .descriptionBlock {
+      .descriptionSign {
+        color: #1b1f23;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 500;
+        display: inline-block;
+        margin-bottom: 16px;
+      }
+      .description {
+        color: #1b1f23;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+      }
+    }
+  }
+}

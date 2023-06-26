@@ -1,0 +1,9 @@
+.filmsContainer {
+  background-color: transparent;
+  flex-basis: 75%;
+  min-height: 300px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px 0;
+}

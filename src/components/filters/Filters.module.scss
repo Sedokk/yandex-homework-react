@@ -1,0 +1,27 @@
+.filtersContainer {
+  background-color: #fff;
+  flex-basis: 25%;
+  min-height: 300px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px;
+  position: sticky;
+  top: 112px;
+  .filtersTitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #1b1f23;
+    align-self: flex-start;
+  }
+  .filtersBlock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px 0;
+  }
+}

@@ -1,0 +1,19 @@
+.container {
+  margin: 24px 32px;
+  background-color: transparent;
+  .title {
+    display: block;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+  .accordeonsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px 0;
+  }
+}
